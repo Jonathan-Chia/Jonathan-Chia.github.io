@@ -9,13 +9,13 @@ highlighter:         true
 permalink:        pretty
 
 # Setup
-title:            Joshua Lande
-tagline:          'Data Science, Apache Pig, Hadoop, Blogging, Tweets, Astrophysics'
+title:            Jonathan Chia
+tagline:          'Portfolio'
 url:              http://www.joshualande.com
 shorturl:         joshualande.com
 
 author:
-  name:           'Joshua Lande'
+  name:           'Jonathan Chia'
   url:            https://twitter.com/joshualande
 
 paginate:         1
