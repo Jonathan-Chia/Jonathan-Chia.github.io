@@ -1,5 +1,5 @@
-![cool data pic](https://wallpaperbro.com/img/268221.jpg)
 _(702) 556-4648 • jonathan.rj.chia@gmail.com • *[linkedin profile](linkedin.com/in/jonathan-rj-chia)*_
+![cool data pic](https://wallpaperbro.com/img/268221.jpg)
 
 I am a junior at Brigham Young University, an aspiring data scientist/financial analyst, and investing enthusiast. I believe a happy life comes through stability, balance, communication, and organization.
 
