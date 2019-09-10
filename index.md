@@ -1,7 +1,4 @@
----
-layout: default
-title: Home
----
+
 
 ## Jonathan Chia
 _(702) 556-4648 • jonathan.rj.chia@gmail.com • *[linkedin profile](linkedin.com/in/jonathan-rj-chia)*_
