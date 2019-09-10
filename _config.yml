@@ -11,12 +11,12 @@ permalink:        pretty
 # Setup
 title:            Jonathan Chia
 tagline:          'Portfolio'
-url:              http://www.joshualande.com
-shorturl:         joshualande.com
+url:              https://jonathan-chia.github.io/
+shorturl:         jonathan-chia.github.io/.
 
 author:
   name:           'Jonathan Chia'
-  url:            https://twitter.com/joshualande
+  url:            https://www.facebook.com/jonathan.rj.chia
 
 paginate:         1
 
@@ -24,7 +24,7 @@ paginate:         1
 version:          1.0.0
 
 github:
-  repo:           github.com/joshualande/joshualande.github.io
+  repo:           https://github.com/Jonathan-Chia/Jonathan-Chia.github.io/
 
 # This is the list of pages to include in the header of the website.
 pages_list:       
