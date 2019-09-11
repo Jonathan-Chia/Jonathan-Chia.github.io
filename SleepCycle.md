@@ -24,3 +24,30 @@ After creating boxplots, we saw that a logarithmic transformation would be unnec
 Since we had an unbalanced experiment, we used the Type III Anova Test. Figure 1.1 looks at Time Sleeping taking into account the Season effect and we see that the p-value for Time Sleeping is sufficiently small. Figure 1.2 does the same for Season taking into account the Time Sleeping effect. The new calculations, in Figure 1.2, show that with the time sleeping effect taken into account, we saw that the p-value for Season became smaller, while the p-value for Time Sleeping remained unchanged. With Time Sleeping being the most significant, Figure 1.2 is the most representative Anova table, and we can conclude that both factors are significant. 
 
 ![anova.jpg](https://github.com/Jonathan-Chia/Jonathan-Chia.github.io/blob/master/Sleep_Anovatable.jpg)
+
+
+![anova.jpg](https://github.com/Jonathan-Chia/Jonathan-Chia.github.io/blob/master/Sleep_interact.jpg)
+_While checking the Anova Table, we found that the pvalue for interaction is 0.1543. Thus, we can conclude that while there is an interaction, it is not significant. 
+
+
+![anova.jpg](https://github.com/Jonathan-Chia/Jonathan-Chia.github.io/blob/master/Sleep_confintervals.jpg)
+_The confidence interval support what the initial box plot showed. There appears to be a linear relationship between time sleeping and sleep quality. The means of the levels of Amount of Sleep increase as the amount of sleep increase.  
+
+# Conclusions                  
+The data suggest sleep quality improves in a somewhat linear fashion. We concluded that Season has an effect on overall sleep quality and reject that null hypothesis based on a p-value of  2.775x10-12. We also concluded that Time Sleeping has an effect on overall sleep quality based on a p-value of 2.2x10-16. There is an interaction between Season and the Time Sleeping, but it is not significant (p-value = 0.1543). We can conclude that there is correlation for Time Sleeping and sleep quality and correlation for Season and sleep quality, but we are unable to generalize our findings to all college students due to our one-person population.  
+ 
+For this project, we have assumed that Jonathan represents a typical college student; however, everyone sleeps differently so these results are only catered to him. We were unable to measure some factors that are commonly known to affect sleep. These factors include stress, outside noises, diet or phone light before sleeping. Additionally, consistent sleep patterns probably have an effect on sleep quality, meaning the previous days’ sleep can affect the next day. However, since we have a large sample data, we believe it is enough data to balance out the effects. If we had more time and resources, we could have more students use the Sleep Cycle App and report their data since a broader sample could better represent the population of college students. The best method would be to run a sleep study experiment, with randomized treatments from a random sample. Then we could conclude causation. 
+ 
+# Appendix
+
+![data.jpg](https://github.com/Jonathan-Chia/Jonathan-Chia.github.io/blob/master/Sleep_datasample.jpg)
+
+![resids.jpg](https://github.com/Jonathan-Chia/Jonathan-Chia.github.io/blob/master/Sleep_resids.jpg)
+_The Histogram for Sleep Quality (the response) does not show any significant outliers. 
+_The Histogram of Residuals is approximately normal. 
+
+![boxplots.jpg](https://github.com/Jonathan-Chia/Jonathan-Chia.github.io/blob/master/Sleep_boxplots.jpg)
+_We started the data with two fall semesters, but we noticed that Jonathan’s sleep quality was irregular for the first fall semester due to higher stress and slight insomnia. Therefore, we decided that for this study, it would be better to not take into account the first fall semester. 
+
+# R Code
+see R studio
