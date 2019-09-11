@@ -30,7 +30,7 @@ github:
 pages_list:       
   Blog: '/Blog/'
   Projects: '/Projects/'
-  ANOVA: '/ANOVA/'
+  SleepCycle: '/SleepCycle/'
 
 # Allow URL Redirects: 
 #  * https://help.github.com/articles/redirects-on-github-pages
