@@ -2,8 +2,6 @@
 layout: page
 title: SleepCycle
 ---
-
-## Sleep Cycle Analysis 
 Jonathan Chia, Krystine Osumo, Gregory Pollock 
 
 # Introduction 
