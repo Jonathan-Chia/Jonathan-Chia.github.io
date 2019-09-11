@@ -50,4 +50,4 @@ _The Histogram of Residuals is approximately normal.
 _We started the data with two fall semesters, but we noticed that Jonathan’s sleep quality was irregular for the first fall semester due to higher stress and slight insomnia. Therefore, we decided that for this study, it would be better to not take into account the first fall semester. 
 
 # R Code
-see R studio
+see R studio https://rstudio.cloud/project/252662
