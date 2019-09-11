@@ -46,7 +46,7 @@ For this project, we have assumed that Jonathan represents a typical college stu
 _The Histogram for Sleep Quality (the response) does not show any significant outliers. 
 _The Histogram of Residuals is approximately normal. 
 
-![boxplots.jpg](https://github.com/Jonathan-Chia/Jonathan-Chia.github.io/blob/master/Sleep_boxplots.jpg)
+![boxplots.jpg](https:\\github.com\Jonathan-Chia\Jonathan-Chia.github.io\blob\master\Sleep_boxplots.jpg)
 _We started the data with two fall semesters, but we noticed that Jonathan’s sleep quality was irregular for the first fall semester due to higher stress and slight insomnia. Therefore, we decided that for this study, it would be better to not take into account the first fall semester. 
 
 # R Code
