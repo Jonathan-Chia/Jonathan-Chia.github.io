@@ -12,7 +12,7 @@ Our three null hypotheses assume: that there is no difference in mean sleep qual
 
 Yijk= μ + 𝛼i + βj + 𝛼iβj + εijk 
 
-![power.jpg](https://github.com/Jonathan-Chia/Jonathan-Chia.github.io/blob/master/Sleep_Powercurve.jpg)
+![power](https://github.com/Jonathan-Chia/Jonathan-Chia.github.io/blob/master/Sleep_Powercurve.jpg)
 _Because this is an observational study, we used power analyses to find what differences in sleep quality are statistically possible to detect. The within.variance is the variance of the response variable, the sleep quality. The between variance was calculated assuming that we want to detect a difference of at least 2.5% between Spring/Summer and Fall/Winter as well as detect a difference of at least 5% between each level of time sleeping.  With at least 9 replications in each cell, we can detect a difference of 2.5% in sleep quality with a power of about 90%. 
 
 # Data Collection               
@@ -23,14 +23,14 @@ After creating boxplots, we saw that a logarithmic transformation would be unnec
 
 Since we had an unbalanced experiment, we used the Type III Anova Test. Figure 1.1 looks at Time Sleeping taking into account the Season effect and we see that the p-value for Time Sleeping is sufficiently small. Figure 1.2 does the same for Season taking into account the Time Sleeping effect. The new calculations, in Figure 1.2, show that with the time sleeping effect taken into account, we saw that the p-value for Season became smaller, while the p-value for Time Sleeping remained unchanged. With Time Sleeping being the most significant, Figure 1.2 is the most representative Anova table, and we can conclude that both factors are significant. 
 
-![anova.jpg](https://github.com/Jonathan-Chia/Jonathan-Chia.github.io/blob/master/Sleep_Anovatable.jpg)
+![anova](https://github.com/Jonathan-Chia/Jonathan-Chia.github.io/blob/master/Sleep_Anovatable.jpg)
 
 
-![anova.jpg](https://github.com/Jonathan-Chia/Jonathan-Chia.github.io/blob/master/Sleep_interact.jpg)
+![anova](https://github.com/Jonathan-Chia/Jonathan-Chia.github.io/blob/master/Sleep_interact.jpg)
 _While checking the Anova Table, we found that the pvalue for interaction is 0.1543. Thus, we can conclude that while there is an interaction, it is not significant. 
 
 
-![anova.jpg](https://github.com/Jonathan-Chia/Jonathan-Chia.github.io/blob/master/Sleep_confintervals.jpg)
+![anova](https://github.com/Jonathan-Chia/Jonathan-Chia.github.io/blob/master/Sleep_confintervals.jpg)
 _The confidence interval support what the initial box plot showed. There appears to be a linear relationship between time sleeping and sleep quality. The means of the levels of Amount of Sleep increase as the amount of sleep increase.  
 
 # Conclusions                  
@@ -40,13 +40,13 @@ For this project, we have assumed that Jonathan represents a typical college stu
  
 # Appendix
 
-![data.jpg](https://github.com/Jonathan-Chia/Jonathan-Chia.github.io/blob/master/Sleep_datasample.jpg)
+![data](https://github.com/Jonathan-Chia/Jonathan-Chia.github.io/blob/master/Sleep_datasample.jpg)
 
-![resids.jpg](https://github.com/Jonathan-Chia/Jonathan-Chia.github.io/blob/master/Sleep_resids.jpg)
+![resids](https://github.com/Jonathan-Chia/Jonathan-Chia.github.io/blob/master/Sleep_resids.jpg)
 _The Histogram for Sleep Quality (the response) does not show any significant outliers. 
 _The Histogram of Residuals is approximately normal. 
 
-![boxplots.jpg](https:\\github.com\Jonathan-Chia\Jonathan-Chia.github.io\blob\master\Sleep_boxplots.jpg)
+![boxplots](https://github.com/Jonathan-Chia/Jonathan-Chia.github.io/blob/master/Sleep_boxplots.jpg)
 _We started the data with two fall semesters, but we noticed that Jonathan’s sleep quality was irregular for the first fall semester due to higher stress and slight insomnia. Therefore, we decided that for this study, it would be better to not take into account the first fall semester. 
 
 # R Code
