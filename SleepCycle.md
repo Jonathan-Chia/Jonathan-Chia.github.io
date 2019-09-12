@@ -1,3 +1,8 @@
+---
+layout: page
+title: SleepCycle
+---
+
 Jonathan Chia, Krystine Osumo, Gregory Pollock 
 
 # Introduction 
