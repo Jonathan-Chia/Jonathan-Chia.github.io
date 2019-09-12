@@ -14,7 +14,7 @@ Our three null hypotheses assume: that there is no difference in mean sleep qual
 Yijk= μ + 𝛼i + βj + 𝛼iβj + εijk 
 
 ![power](https://github.com/Jonathan-Chia/Jonathan-Chia.github.io/blob/master/Sleep_Powercurve.jpg)
-_Because this is an observational study, we used power analyses to find what differences in sleep quality are statistically possible to detect. The within.variance is the variance of the response variable, the sleep quality. The between variance was calculated assuming that we want to detect a difference of at least 2.5% between Spring/Summer and Fall/Winter as well as detect a difference of at least 5% between each level of time sleeping.  With at least 9 replications in each cell, we can detect a difference of 2.5% in sleep quality with a power of about 90%. 
+_Because this is an observational study, we used power analyses to find what differences in sleep quality are statistically possible to detect. The within.variance is the variance of the response variable, the sleep quality. The between variance was calculated assuming that we want to detect a difference of at least 2.5% between Spring/Summer and Fall/Winter as well as detect a difference of at least 5% between each level of time sleeping.  With at least 9 replications in each cell, we can detect a difference of 2.5% in sleep quality with a power of about 90%._
 
 # Data Collection               
 Data was gathered through the Sleep Cycle iPhone application. The user is instructed to place the phone on a bedside table while the app measures movement with a microphone to provide a measure of sleep quality with high movement or irregular movement patterns suggesting bad sleep. We used the Time in Bed, Sleep Quality and Date measurements from the app to gather our data. We also created season and time sleeping (timslpfac) factors. A sample of our data is included in the appendix. Note that the data has limitations because one can decide when to sleep and wake up, so we have to assume the Time in Bed factor is random in order to do analysis. 
@@ -28,11 +28,11 @@ Since we had an unbalanced experiment, we used the Type III Anova Test. Figure 1
 
 
 ![anova](https://github.com/Jonathan-Chia/Jonathan-Chia.github.io/blob/master/Sleep_interact.jpg)
-_While checking the Anova Table, we found that the pvalue for interaction is 0.1543. Thus, we can conclude that while there is an interaction, it is not significant. 
+_While checking the Anova Table, we found that the pvalue for interaction is 0.1543. Thus, we can conclude that while there is an interaction, it is not significant._
 
 
 ![anova](https://github.com/Jonathan-Chia/Jonathan-Chia.github.io/blob/master/Sleep_confintervals.jpg)
-_The confidence interval support what the initial box plot showed. There appears to be a linear relationship between time sleeping and sleep quality. The means of the levels of Amount of Sleep increase as the amount of sleep increase.  
+_The confidence interval support what the initial box plot showed. There appears to be a linear relationship between time sleeping and sleep quality. The means of the levels of Amount of Sleep increase as the amount of sleep increase._  
 
 # Conclusions                  
 The data suggest sleep quality improves in a somewhat linear fashion. We concluded that Season has an effect on overall sleep quality and reject that null hypothesis based on a p-value of  2.775x10-12. We also concluded that Time Sleeping has an effect on overall sleep quality based on a p-value of 2.2x10-16. There is an interaction between Season and the Time Sleeping, but it is not significant (p-value = 0.1543). We can conclude that there is correlation for Time Sleeping and sleep quality and correlation for Season and sleep quality, but we are unable to generalize our findings to all college students due to our one-person population.  
@@ -44,11 +44,11 @@ For this project, we have assumed that Jonathan represents a typical college stu
 ![data](/assets/Sleep_datasample.jpg)
 
 ![](/assets/Sleep_resids.jpg)
-_The Histogram for Sleep Quality (the response) does not show any significant outliers. 
-_The Histogram of Residuals is approximately normal. 
+_The Histogram for Sleep Quality (the response) does not show any significant outliers._ 
+_The Histogram of Residuals is approximately normal._ 
 
 ![](/assets/Sleep_boxplots.jpg)
-_We started the data with two fall semesters, but we noticed that Jonathan’s sleep quality was irregular for the first fall semester due to higher stress and slight insomnia. Therefore, we decided that for this study, it would be better to not take into account the first fall semester. 
+_We started the data with two fall semesters, but we noticed that Jonathan’s sleep quality was irregular for the first fall semester due to higher stress and slight insomnia. Therefore, we decided that for this study, it would be better to not take into account the first fall semester._
 
 # R Code
 see *[R Studio](https://rstudio.cloud/project/252662)*.
