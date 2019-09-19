@@ -230,7 +230,7 @@ question_score_all$Overall_Percent <-  sprintf("%3.1f%%", 100*question_score_all
 kable(question_score_all, caption = "Question Score by Number")
 
 ```
-![](/assets/question.PNG)
+![](/assets/questions.PNG)
 
 
 
