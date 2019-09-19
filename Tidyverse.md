@@ -13,6 +13,7 @@ _insert dplyr picture_
 #Adomains and Bdomains have headers
 
 library(knitr)
+library(tidyverse)
 
 B <- read.csv("C:\\Users\\Chia\\Documents\\Stats 123\\Data.and.Domains\\Data.and.Domains\\FormB.csv", sep = ",", stringsAsFactors = FALSE, header = FALSE)
 
