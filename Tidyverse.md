@@ -2,9 +2,6 @@
 layout: page
 title: Tidyverse
 ---
-
-
-
 Below is an old project I worked on to use some Tidyverse dplyr code in order to compare an answer key to student answers. 
 
 _insert dplyr picture_
@@ -207,25 +204,15 @@ all_student$Domain_5_P <- sprintf("%3.1f%%", 100*all_student$Domain_5_P)
 kable(all_student, caption = "Student Scores by ID")
 ```
 
-_insert kable_
+![](/assets/studentfinal.PNG)
 
 
 ```r
-
-#ordering columns and arranging by best percentage
-
-all_student_p <- all_student[c(1,2,4,3,10,11,12,13,14,5,6,7,8,9)]
-all_student_p <- all_student_p %>% arrange(desc(Overall_Percent))
-
-kable(all_student_p, caption = "Student Scores by Highest Percentage")
-```
-```r
-
 #boxplot
 
 boxplot(domain_all$Domain1, domain_all$Domain2, domain_all$Domain3, domain_all$Domain4, domain_all$Domain5, ylab = "Scores", main = "Domain Comparison", xlab = "Domains", names = c("1", "2","3","4","5"))
 ```
-_insert kable_
+![](/assets/domaincomparison.PNG)
 
 # Section B: Question Analysis
 Question Score by Number
@@ -242,17 +229,7 @@ question_score_all$Overall_Percent <-  sprintf("%3.1f%%", 100*question_score_all
 kable(question_score_all, caption = "Question Score by Number")
 
 ```
-Question Score by Highest Percentage to Lowest
-```{r}
-#order columns, sorted by percentage
-
-
-question_score_all_p <- question_score_all_p %>% arrange(desc(Overall_Percent))
-question_score_all_p$Overall_Percent <- sprintf("%3.1f%%", 100*question_score_all_p$Overall_Percent)
-
-kable(question_score_all_p, caption = "Question Score by Highest Percentage to Lowest")
-```
-_insert kable_
+![](/assets/domaincomparison.PNG)
 
 
 
