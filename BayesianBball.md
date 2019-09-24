@@ -3,7 +3,7 @@ layout: page
 title: BayesianBball
 ---
 
-## Problem of Interest:
+## Problem of Interest
 Why are we doing this study?
   
   define RV of interest: number of free throws made out of 10
@@ -18,7 +18,7 @@ Why are we doing this study?
 
   Posterior: pi(theta|x)
   
-## Apply to problem of interest
+## Apply to Problem of Interest
 
   Make decisions baded on posterior
   summarize posterior dist to help
