@@ -13,7 +13,11 @@ Why are we doing this study?
   
 ## Define Model
   
-  Prior Probability Distribution: pi(theta) ~ Beta
+  Prior Probability Distribution: pi(theta) ~ Beta(alpha, beta)
+    My best guess for theta (shooting percentage) is E(theta) = 0.7. Therefore, alpha should be bigger than beta. Because my guess is that 95% of the time I will get between 0.5 to 0.9, my standard deviation will be about 0.2 (as alpha and beta get bigger, variance decreases).  
+    
+    INSERT PICTURE OF BETA DISTRIBUTION WITH 95% including 0.5 to 0.9
+    
   Likelihood: f(x|theta)
   
 ## Derive the Posterior Distribution
