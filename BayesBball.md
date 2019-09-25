@@ -1,6 +1,6 @@
 ---
 layout: page
-title: BayesianBball
+title: BayesBball
 ---
 I am making a dashboard in shiny that will input my free throws and update my free throw true shooting percentage using bayesian statistics. 
 
