@@ -18,16 +18,19 @@ Why are we doing this study?
     
     INSERT PICTURE OF BETA DISTRIBUTION WITH 95% including 0.5 to 0.9
     
-  Likelihood: f(x|theta)
+  Likelihood: f(x|theta) ~ Binomial
   
 ## Derive the Posterior Distribution
 
-  Posterior: pi(theta|x)
+  Posterior: pi(theta|x) ~ Beta(x + alpha, n - x + beta)
   
 ## Apply to Problem of Interest
 
   Make decisions baded on posterior
   summarize posterior dist to help
   
+
+<iframe src="https://jonathan-chia.shinyapps.io/BayesBball/" style="width:750px; height: 750px;">
+<embed src="https://jonathan-chia.shinyapps.io/BayesBball/" style="width:750px; height: 750px;">
 
   
