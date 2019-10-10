@@ -12,9 +12,12 @@ Why are we doing this study?
   assumptions: we have to assume independence of each free throw. In reality, when you make five in a row, your confidence increases and      will affect the next shots.
   
 ## Define Model
+
  ```r
   Prior Probability Distribution: $$ \pi(\theta) ~ Beta(\alpha, \beta) $$
 ```
+note: LATEX doesn't work so insert pictures instead
+
 My best guess for theta (shooting percentage) is E(theta) = 0.7. Therefore, alpha should be bigger than beta. Because my guess is that 95% of the time I will get between 0.5 to 0.9, my standard deviation will be about 0.2 (as alpha and beta get bigger, variance decreases).  
     
     INSERT PICTURE OF BETA DISTRIBUTION WITH 95% including 0.5 to 0.9
