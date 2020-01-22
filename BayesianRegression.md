@@ -1,6 +1,6 @@
 ---
 layout: page
-title: BayesianRegression
+title: BayesRegression
 ---
 **Big 5 Personality Test Bayesian Regression Analysis**
 
