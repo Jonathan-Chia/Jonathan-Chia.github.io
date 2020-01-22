@@ -5,7 +5,7 @@ title: WaiterTips
 
 Below is a presentation I made that focuses on fitting a multiple linear regression model correctly. We had some struggles with the assumptions but using box cox and log transformations fixed the problems.
 
-![1](assets/Stat%20330%20Group%20Project%201.jpg)
+![a](assets/Stat%20330%20Group%20Project%201.jpg)
 
 ![2](assets/Stat%20330%20Group%20Project%202.jpg)
 
