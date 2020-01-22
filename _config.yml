@@ -34,6 +34,7 @@ pages_list:
   Tidyverse: '/Tidyverse/'
   BayesBball: '/BayesBball/'
   BayesRegression: '/BayesRegression/'
+  WaiterTips: '/WaiterTips/'
 
 # Allow URL Redirects: 
 #  * https://help.github.com/articles/redirects-on-github-pages
