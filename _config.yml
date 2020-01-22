@@ -33,6 +33,7 @@ pages_list:
   SleepCycle: '/SleepCycle/'
   Tidyverse: '/Tidyverse/'
   BayesBball: '/BayesBball/'
+  BayesRegression: '/BayesianRegression/'
 
 # Allow URL Redirects: 
 #  * https://help.github.com/articles/redirects-on-github-pages
