@@ -16,7 +16,13 @@ Is extraversion score, from the Big5 personality test, affected by the other per
 
 We performed a linear regression, and will examine the parameters in the linear regression model. 
 
-**Regression Model: 					Parameters of Interest:**
+**Regression Model:** 					
+
+![1](assets/big5.1.png)
+
+**Parameters of Interest:**
+
+![2](assets/big5.2.png)
 
 **Data Collection:**
 
@@ -24,12 +30,7 @@ The Big5 personality test results are on Open Psychometrics, an open source psyc
 
 **Likelihood:**
 
-
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Stat-2510.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Stat-2510.png "image_tooltip")
+![3](assets/big5.3.png)
 
 
 The normal distribution for the Escore is appropriate because the histogram of Escore is normal. 
@@ -38,7 +39,13 @@ The normal distribution for the Escore is appropriate because the histogram of E
 
 Using normals as the priors is appropriate because the Betas follow a normal distribution and it is a conjugate distribution. The prior inverse gamma distribution is typically used for variance parameters because the distribution is positive and conjugate. 
 
+![4](assets/big5.4.png)
+
 We chose a wide variance and a mean of 0 as the prior parameters for the Betas, because we don’t have any strong prior beliefs. For the variance we also used a wide distribution. We used the same prior parameters for both females and males.
+
+![5](assets/big5.5.png)
+
+![6](assets/big5.6.png)
 
 **Describe & Summarize Posterior Distribution:**
 
@@ -64,20 +71,25 @@ Variance      	-2.752    -5.048        -0.3785       0.02853
 
 Given our data and prior knowledge, there is a 90% probability that the true difference in neuroticism coefficient is between 0.002667 and  0.04954.
 
+
+![7](assets/big5.7.png)
+
+
+![8](assets/big5.8.png)
+
 **Results:**
 
-Full conditional on sigma				  Full conditional on beta
+Full conditional on sigma				  
 
+![9](assets/big5.9.png)
 
+Full conditional on beta
+
+![10](assets/big5.10.png)
 
 Full Conditional on intercept
 
-
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: inline image link here (to images/Stat-2511.png). Store image on your image server and adjust path/filename if necessary. </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-
-![alt_text](images/Stat-2511.png "image_tooltip")
+![11](assets/big5.11.png)
 
 
 **Conclusion: **
