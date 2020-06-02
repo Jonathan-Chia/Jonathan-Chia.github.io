@@ -31,7 +31,6 @@ pages_list:
   Millionaire: '/Millionaire/'
   CareerTriangle: '/CareerTriangle/'
   SleepCycle: '/SleepCycle/'
-  Tidyverse: '/Tidyverse/'
   BayesBball: '/BayesBball/'
   BayesRegression: '/BayesRegression/'
   WaiterTips: '/WaiterTips/'
