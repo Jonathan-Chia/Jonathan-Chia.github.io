@@ -2,7 +2,9 @@
 
 I am a senior at Brigham Young University, an aspiring data scientist, and investing enthusiast. 
 
-My skills include running statistical analyses, coding in R or Python, using technology to improve efficiency, time management, teaching Chinese, and concocting healthy and delicious smoothies. I love basketball, volleyball, ping pong, learning Korean, composing piano pieces, teaching violin, and playing Chinese chess. 
+Instead of telling you about myself, look at the data instead!
+
+INSERT COOL VISUALIZATIONS DESCRIBING MYSELF
 
 This website contains some of my favorite data projects. Feel free to ask questions or comment on my projects.
 
