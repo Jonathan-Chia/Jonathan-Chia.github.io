@@ -29,3 +29,6 @@ xgboost - random forest -
 
 
 kpop girl groups revenue - what is the magical # for how many girls should be in a group? probably doesn't matter because of company, but we could include that in the analysis
+
+
+Insert my customer segmentation dashboard with fake data
