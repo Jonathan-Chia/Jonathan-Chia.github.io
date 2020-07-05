@@ -7,4 +7,4 @@ My skills include running statistical analyses, coding in R or Python, using tec
 This website contains some of my favorite data projects. Feel free to ask questions or comment on my projects.
 
 
-_(702) 556-4648 • jonathan.rj.chia@gmail.com • *[linkedin profile](linkedin.com/in/jonathan-rj-chia)*_
+_(702) 556-4648 • jonathan.rj.chia@gmail.com • [linkedin profile](linkedin.com/in/jonathan-rj-chia)_
