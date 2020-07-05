@@ -3,6 +3,8 @@ layout: page
 title: Millionaire
 ---
 
+My below article is featured on the Marriot Review: https://www.marriottstudentreview.org/weekly-blog/millionaire-secrets/
+
 ![page1](/assets/1m.jpg)
 
 ![page2](/assets/2m.jpg)
